@@ -7,7 +7,6 @@ import Hero from './components/hero.jsx'
 import Textgen from './components/textgen.jsx'
 import Feature from './components/features.jsx'
 import About from './components/about.jsx'
-import router from './router'; // path to the router you exported
 
 const router = createHashRouter([
   {
@@ -19,15 +18,15 @@ const router = createHashRouter([
         element: <Hero />
       },
       {
-        path: "/textgen",
+        path: "textgen",
         element: <Textgen />
       },
       {
-        path: "/feature",
+        path: "feature",
         element: <Feature />
       },
       {
-        path: "/about",
+        path: "about",
         element: <About />
       }
     ]
