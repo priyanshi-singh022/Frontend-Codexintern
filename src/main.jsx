@@ -10,7 +10,7 @@ import About from './components/about.jsx'
 
 const router = createHashRouter([
   {
-    path: '/',
+    path: '/#',
     element: <App />,
     children: [
       {
@@ -18,15 +18,15 @@ const router = createHashRouter([
         element: <Hero />
       },
       {
-        path: "textgen",
+        path: "/#/textgen",
         element: <Textgen />
       },
       {
-        path: "feature",
+        path: "/#/feature",
         element: <Feature />
       },
       {
-        path: "about",
+        path: "/#/about",
         element: <About />
       }
     ]
