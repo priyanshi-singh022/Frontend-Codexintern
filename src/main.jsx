@@ -8,6 +8,7 @@ import textgen from './components/textgen.jsx'
 import Textgen from './components/textgen.jsx'
 import Feature from './components/features.jsx'
 import About from './components/about.jsx'
+import router from './router'; // path to the router you exported
 
 const router = createHashRouter([
   {
@@ -37,9 +38,6 @@ const router = createHashRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <HashRouter>
-      <RouterProvider router={router} />
-    </HashRouter>
-
-  </StrictMode>,
-)
+    <RouterProvider router={router} />
+  </StrictMode>
+);
