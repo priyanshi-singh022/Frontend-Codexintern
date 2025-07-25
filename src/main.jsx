@@ -4,7 +4,6 @@ import './index.css'
 import App from './App.jsx'
 import { createHashRouter, RouterProvider } from 'react-router-dom';
 import Hero from './components/hero.jsx'
-import textgen from './components/textgen.jsx'
 import Textgen from './components/textgen.jsx'
 import Feature from './components/features.jsx'
 import About from './components/about.jsx'
